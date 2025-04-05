@@ -9,9 +9,9 @@ export default async function handler(req, res) {
         title: "🎁 ClaimX – Tap to Win!",
         image: `https://${host}/banner.jpg`,
         buttons: [
-          { label: "Tap to Claim 🎯", action: "post", target: `https://redalerts-projects-cryptox-virid.vercel.app//api/claim` },
+          { label: "Tap to Claim 🎯", action: "post", target: `https://cryptox-virid.vercel.app//api/claim` },
         ],
-        postUrl: `https://redalerts-projects-cryptox-virid.vercel.app/api/claim`,
+        postUrl: `https://cryptox-virid.vercel.app/api/claim`,
       },
     ],
   });
