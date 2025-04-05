@@ -11,7 +11,7 @@ export default async function handler(req, res) {
         buttons: [
           { label: "Tap to Claim 🎯", action: "post", target: `https://${host}/api/claim` },
         ],
-        postUrl: `https://${host}/api/claim`,
+        postUrl: `https://cryptox-virid.vercel.app/api/claim`,
       },
     ],
   });
